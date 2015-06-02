@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    daemons (1.2.2)
     slack-rtmapi (1.0.0.rc4)
       websocket-driver
     websocket-driver (0.5.4)
@@ -11,4 +12,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  daemons
   slack-rtmapi (= 1.0.0.rc4)
