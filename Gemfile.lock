@@ -33,9 +33,12 @@ GEM
       thread_safe (~> 0.1)
     websocket-driver (0.5.4)
       websocket-extensions (>= 0.1.0)
+    websocket-driver (0.5.4-java)
+      websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
@@ -43,3 +46,6 @@ DEPENDENCIES
   daemons
   slack-api
   slack-rtmapi (= 1.0.0.rc4)
+
+BUNDLED WITH
+   1.10.4

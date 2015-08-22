@@ -3,6 +3,6 @@
 require File.join(__dir__, "..", "lib", "slack_logger")
 require "daemons"
 
-Daemons.run_proc("slack_logger") do
+Daemons.run_proc("slack_logger", monitor: true) do
   SlackLogger.new(ENV["SLACK_LOGGER_TOKEN"]).run
 end
